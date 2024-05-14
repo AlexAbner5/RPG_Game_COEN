@@ -1,0 +1,9 @@
+﻿  Game.cpp
+C:\Users\Losma\Desktop\Proyecto Final COEN\RPG_ConsoleApplication\RPG_ConsoleApplication\Game.cpp(151,21): error C2664: 'void Game::fight(Player,Creature)': cannot convert argument 2 from 'std::shared_ptr<Creature>' to 'Creature'
+  C:\Users\Losma\Desktop\Proyecto Final COEN\RPG_ConsoleApplication\RPG_ConsoleApplication\Game.cpp(151,35):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Users\Losma\Desktop\Proyecto Final COEN\RPG_ConsoleApplication\RPG_ConsoleApplication\Game.h(30,10):
+  see declaration of 'Game::fight'
+  C:\Users\Losma\Desktop\Proyecto Final COEN\RPG_ConsoleApplication\RPG_ConsoleApplication\Game.cpp(151,21):
+  while trying to match the argument list '(Player, std::shared_ptr<Creature>)'
+  
